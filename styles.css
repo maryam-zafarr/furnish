@@ -467,7 +467,10 @@ body * {
   width: 7vh;
   border-radius: 8%;
 }
-
+.logo-footer {
+  color: rgb(2, 4, 23);
+  font-weight: bold;
+}
 .blog-posts-title {
   color: rgb(2, 4, 23);
 }
@@ -501,6 +504,13 @@ body * {
   .c-nav-item-active{
     color: white !important;
 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-posts-img {
+    width: 100%;
+    height: 40vh;
   }
 }
 
