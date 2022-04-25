@@ -1,0 +1,30 @@
+{
+  "name": "furnish",
+  "version": "1.0.0",
+  "description": "Landing page for furniture website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryam-zafarr/furnish.git"
+  },
+  "author": "Maryam Zafar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryam-zafarr/furnish/issues"
+  },
+  "homepage": "https://github.com/maryam-zafarr/furnish#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
