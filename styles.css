@@ -60,7 +60,6 @@ body * {
 }
 
 .c-hero-text {
-  min-height: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -134,8 +133,8 @@ body * {
 }
 .c-about-icon {
   background: #c66f11;
-  height: 8vh;
-  width: 8vh;
+  height: 12vh;
+  width: 12vh;
   border-radius: 50%;
   margin-bottom: 20px;
   display: flex;
@@ -149,7 +148,7 @@ body * {
 
 .about-vdo-text {
   padding-left: 20px;
-  padding-top: 15px;
+  padding-top: 30px;
   color: #c66f11;
 }
 
@@ -213,6 +212,7 @@ body * {
 }
 
 .c-section-heading {
+  font-size: 35px;
   color: rgb(2, 4, 23);
   margin-bottom: 60px;
   letter-spacing: 1.8px;
@@ -533,12 +533,14 @@ body * {
   .c-hero-text h1 {
     font-size: 30px;
   }
-
+  .c-section-heading {
+    font-size: 6vw;
+  }
 }
 
 @media only screen and (max-width: 490px) {
   .c-section-heading {
-    font-size: 20px;
+    font-size: 6.5vw;
     margin-bottom: 30px;
   }
   .c-about-img {
