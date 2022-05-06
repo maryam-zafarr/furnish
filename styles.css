@@ -356,6 +356,31 @@ body * {
 .testimonial-badge i {
   color: white;
 }
+hr {
+  border-top: 1px dashed rgb(189, 185, 185) !important;
+}
+
+.dashed-line {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.navi {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.infoi {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.infoi {
+  z-index: 10;
+}
+
 .c-work {
     background: #f7f7f7;
     padding-bottom: 80px;
@@ -564,4 +589,8 @@ body * {
   }
 }
 
-
+@media only screen and (max-width: 767px) {
+  .dashed-line {
+    display: none;
+  }
+}
